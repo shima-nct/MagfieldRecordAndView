@@ -9,8 +9,6 @@ import flask
 df = px.data.iris()  # Plotlyのirisデータセットを使用
 
 # Dashアプリケーションを初期化
-# server = flask.Flask(__name__)
-# app = dash.Dash(__name__, server = server)
 app = dash.Dash(__name__)
 
 # アプリのレイアウトを定義
